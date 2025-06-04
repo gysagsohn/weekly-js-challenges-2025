@@ -3,6 +3,7 @@
 ![Author](https://img.shields.io/badge/author-gysagsohn-lightgrey)
 ![Current Week](https://img.shields.io/badge/challenge-week%201-blue)
 ![Commit Frequency](https://img.shields.io/badge/commits-weekly-green)
+![License](https://img.shields.io/badge/license-MIT-green)
 
 Welcome to my weekly JavaScript challenge log.  
 Each week, I’ll tackle a new challenge, document my thought process, and track my growth.
@@ -128,3 +129,5 @@ else
   echo "✅ Created $FOLDER_NAME from template."
 fi
 ```
+
+

@@ -1,12 +1,7 @@
-// Challenge Description:
-// Replace this comment with a description of the problem
+/**
+ * @param {string} s
+ * @return {number}
+ */
+var lengthOfLastWord = function(s) {
 
-function solution(input) {
-  // Your code here
-  return input;
-}
-
-// ✅ Test Cases
-console.log(solution("example")); // expected output
-
-module.exports = solution;
+};

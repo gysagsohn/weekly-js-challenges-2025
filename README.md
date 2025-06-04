@@ -131,3 +131,45 @@ fi
 ```
 
 
+
+---
+
+### 2. Push a Completed Week to GitHub
+
+To commit and push your work for a specific challenge:
+
+```bash
+./push-week.sh [WEEK_NUMBER] "Challenge Name"
+```
+
+Example
+``` bash
+./push-week.sh 01 "Rotate String"
+```
+
+This will:
+
+Stage all changes
+
+Commit with a clear message like
+chore: complete week 01 - Rotate String challenge
+
+Push to the main branch
+
+Script: push-week.sh
+``` bash
+#!/bin/bash
+
+if [ -z "$1" ]; then
+  echo "❌ Please provide the week number and challenge name."
+  echo "Usage: ./push-week.sh 01 'Rotate String'"
+  exit 1
+fi
+
+WEEK=$1
+CHALLENGE=$2
+
+git add .
+git commit -m "chore: complete week $WEEK - $CHALLENGE challenge"
+git push origin main
+```

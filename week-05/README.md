@@ -4,21 +4,21 @@ https://leetcode.com/problems/power-of-two/description/
 
 Given an integer n, return true if it is a power of two. Otherwise, return false.
 
-An integer n is a power of two, if there exists an integer x such that n == 2x.
+An integer n is a power of two, if there exists an integer x such that n == 2^x.
 
 
 ## Example 1:
 
 Input: n = 1
 Output: true
-Explanation: 20 = 1
+Explanation: 2^0 = 1
 
 
 ## Example 2:
 
 Input: n = 16
 Output: true
-Explanation: 24 = 16
+Explanation: 2^4 = 16
 
 
 ## Example 3:
@@ -33,3 +33,8 @@ Output: false
  
 
 ## Follow up: Could you solve it without loops/recursion?
+
+### Solution
+1) need to see if N = 1 if so then it is true
+2) if n divded by 2 and has no remainder then it is true
+3) if none of the above is true then it is false
